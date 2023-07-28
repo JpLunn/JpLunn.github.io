@@ -1,0 +1,215 @@
+<!-- contact.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunrise Mountain Sports</title>
+    <style>
+        /* Add your CSS styles here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Sidebar styles */
+        .sidebar {
+            height: 100%;
+            width: 250px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color: #f1f1f1;
+            padding-top: 20px;
+        }
+
+        .sidebar a {
+            display: block;
+            padding: 10px;
+            text-decoration: none;
+            color: #000;
+        }
+
+        .sidebar a:hover {
+            background-color: #555;
+            color: #fff;
+        }
+		.logo-link {
+        display: block;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .logo {
+        width: 160px; /* Adjust the width as per your logo's dimensions */
+        height: 160px; /* Adjust the height as per your logo's dimensions */
+    }
+	.banner {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            font-size: 24px;
+        }
+	
+        /* Main content styles */
+        .content {
+            margin-left: 250px;
+        }
+		.address {
+        text-align: center;
+        padding: 20px;
+    }
+
+    .address p {
+        margin: 0;
+    }
+	.hours {
+	text-align: left;
+	padding: 20px;
+	}
+	.navbar {
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        .navbar a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px 14px 260px;
+            text-decoration: none;
+        }
+
+        .dropdown {
+            float: left;
+            overflow: hidden;
+        }
+
+        .dropdown .dropbtn {
+            font-size: 16px;
+            border: none;
+            outline: none;
+            color: white;
+            background-color: inherit;
+            margin: 0;
+            padding: 14px 16px;
+            cursor: pointer;
+        }
+
+        .navbar a:hover,
+        .dropdown:hover .dropbtn {
+            background-color: #555;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            float: none;
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+<div class="navbar">
+        <a href="index.html">Sunrise Mountain Sports</a>
+        <div class="dropdown">
+            <button class="dropbtn">Mens</button>
+            <div class="dropdown-content">
+                <a href="./mensFootware.html">Running Shoes</a>
+                <a href="./mensApparel.html">Apparel</a>
+                <!-- Add more Mens categories if needed -->
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Womens</button>
+            <div class="dropdown-content">
+                <a href="./womensFootware.html">Running Shoes</a>
+                <a href="./womensApparel.html">Apparel</a>
+                <!-- Add more Womens categories if needed -->
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Brands</button>
+            <div class="dropdown-content">
+                <a href="./Hoka.html">Hoka</a>
+                <a href="./Brooks.html">Brooks</a>
+				<a href="./Saucony.html">Saucony</a>
+                <!-- Add more Brands if needed -->
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Gear</button>
+            <div class="dropdown-content">
+                <a href="./accessories.html">Accessories</a>
+                <a href="./Equipment.html">Equipment</a>
+                <!-- Add more Gear categories if needed -->
+            </div>
+        </div>
+    </div>
+    <div class="sidebar">
+		<a href="index.html" class="logo-link">
+            <img src="SMSLogo.png" alt="Sunrise Mountain Sports" class="logo">
+        </a>
+        <a href="./about.html">About Us</a>
+        <a href="./contact.html">Contact Us</a>
+        <a href="./mission.html">SMS Mission</a>
+        <a href="./events.html">SMS Events</a>
+		<div class="address">
+            <p>
+                Sunrise Mountain Sports<br>
+                2184 1st Street<br>
+                Livermore, CA, 94550<br>
+                USA
+            </p>
+        </div>
+    </div>
+
+    <div class="content">
+	<div class="banner">
+            <h1>Sunrise Mountain Sports</h1>
+        </div>
+        <h2 style="text-align:left; color:black";>Contact Sunrise Mountain Sports</h1>
+		<h3>Phone: (925)447-8330</h3>
+		<h3>Email: Sunrisemountainsports@gmail.com</h3>
+		
+		<div class="hours">
+			<h3>Business Hours:<br></h3>
+			<h4>
+				Monday: Closed <br>
+				Tuesday: Noon to 5:00 PM <br>
+				Wednesday: Noon to 5:00 PM <br>
+				Thursday: Noon to 5:00 PM <br>
+				Friday: Noon to 5:00 PM <br>
+				Saturday: 11:00 AM to 5:00 PM <br>
+				Sunday: 11:00 AMto 5:00 PM <br>
+			</h4>
+		</div>
+        <!-- Add the content for the Contact Us page here -->
+    </div>
+	
+</body>
+
+</html>
